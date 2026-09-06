@@ -18,7 +18,7 @@ public final class NexusConfig {
     public boolean showInNametags = true;
     public boolean showInPlayerList = true;
     public String kit = "overall";
-    public String apiUrl = "https://nexustiers.gg/api";
+    public String apiUrl = "https://nexustierss-production.up.railway.app/api";
     public int cacheMinutes = 10;
 
     public static NexusConfig load() {
@@ -51,7 +51,7 @@ public final class NexusConfig {
     private void normalize() {
         if (kit == null || kit.isBlank()) kit = "overall";
         kit = kit.trim().toLowerCase();
-        if (apiUrl == null || apiUrl.isBlank()) apiUrl = "https://nexustiers.gg/api";
+        if (apiUrl == null || apiUrl.isBlank()) apiUrl = "https://nexustierss-production.up.railway.app/api";
         apiUrl = apiUrl.trim().replaceAll("/+$", "");
         if (cacheMinutes < 1) cacheMinutes = 1;
         if (cacheMinutes > 1440) cacheMinutes = 1440;

@@ -30,7 +30,7 @@ Example:
   "showInNametags": true,
   "showInPlayerList": true,
   "kit": "overall",
-  "apiUrl": "https://nexustiers.gg/api",
+  "apiUrl": "https://nexustierss-production.up.railway.app/api",
   "cacheMinutes": 10
 }
 ```
