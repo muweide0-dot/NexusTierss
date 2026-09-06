@@ -11,7 +11,7 @@ TierTagger, but reads verified ranks from the NexusTiers tierlist:
 ## Build
 
 ```bash
-./gradlew build
+gradle build
 ```
 
 The built jar is written to `build/libs/`.
