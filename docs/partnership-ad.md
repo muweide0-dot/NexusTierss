@@ -20,4 +20,4 @@ Are you tired of waiting forever to get your PvP rank verified? Or do you want r
 
 Want to support NexusTiers, collaborate with us or help test new features? Join our community and open a ticket to get in touch with the team.
 
-**Discord:** [Discord-Link einfügen]
+**Discord:** https://discord.gg/fksspjQ2Z
