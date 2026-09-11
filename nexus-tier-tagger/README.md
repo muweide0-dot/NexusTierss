@@ -36,4 +36,4 @@ Example:
 ```
 
 Set `kit` to `overall`, `uhc`, `sword`, `mace`, `diapot`, `nethpot`,
-`smp`, `crystal`, or `axe` to show that specific NexusTiers result.
+`smp`, `crystal`, `axe`, or `cart` to show that specific NexusTiers result.
