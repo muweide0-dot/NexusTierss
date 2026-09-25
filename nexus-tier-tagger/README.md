@@ -35,4 +35,4 @@ Example:
 }
 ```
 
-Set `kit` to `overall`, `uhc`, `sword`, `mace`, `diapot`, `nethpot`, `smp`, `crystal`, `speed`, `bow`, `diasmp`, `elytra`, `creeper`, `trident`, `axe`, `cart`, or `bed` to show that specific NexusTiers result.
+Set `kit` to `overall`, `uhc`, `sword`, `mace`, `diapot`, `nethpot`, `smp`, `crystal`, `ogvanilla`, `speed`, `bow`, `diasmp`, `elytra`, `creeper`, `trident`, `axe`, `cart`, or `bed` to show that specific NexusTiers result.
