@@ -4,13 +4,13 @@ WORKDIR /app
 
 RUN corepack enable && corepack prepare pnpm@10.26.1 --activate \
   && apt-get update \
-  && apt-get install -y --no-install-recommends unzip \
+  && apt-get install -y --no-install-recommends xz-utils \
   && rm -rf /var/lib/apt/lists/*
 
-COPY NexusTiers-ticket-system-complete.zip /tmp/nexustiers.zip
+COPY NexusTiers-ticket-system-complete.tar.xz /tmp/nexustiers.tar.xz
 
-RUN unzip -q /tmp/nexustiers.zip -d /app \
-  && rm /tmp/nexustiers.zip \
+RUN tar -xJf /tmp/nexustiers.tar.xz -C /app \
+  && rm /tmp/nexustiers.tar.xz \
   && pnpm install --frozen-lockfile \
   && pnpm run typecheck:libs \
   && PORT=4173 BASE_PATH=/ pnpm --filter @workspace/minecraft-queue run build \
