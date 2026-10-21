@@ -1,0 +1,16 @@
+{
+  "name": "nexustiers-botkeep",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node ./start.mjs"
+  },
+  "dependencies": {
+    "extract-zip": "2.0.1",
+    "pnpm": "10.26.1"
+  }
+}
