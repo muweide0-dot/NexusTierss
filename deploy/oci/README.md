@@ -51,7 +51,7 @@ The container has `restart: unless-stopped`; with the Docker service enabled, it
 
 ```sh
 cd /opt/nexustiers
-sudo git pull --ff-only
+git pull --ff-only
 sudo docker compose -f deploy/oci/compose.yaml up -d --build
 ```
 
