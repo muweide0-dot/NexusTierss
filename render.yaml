@@ -11,5 +11,7 @@ services:
         sync: false
       - key: DISCORD_BOT_TOKEN
         sync: false
-      - key: DISCORD_GUILD_ID
-        sync: false
+      - key: NEXUS_TIERS_GUILD_ID
+        value: "1552686607289684098"
+      - key: NEXUS_SUBTIERS_GUILD_ID
+        value: "1570409542171238420"
